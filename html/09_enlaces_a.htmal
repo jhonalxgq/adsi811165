@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>enlaces: a h1</title>
+	<h1>enlaces</h1>
+	<a href="http://www.google.com"target="_blank">ir al gmail</a>
+	<a href="http://www.longboardcolombia.com">ir a: longboarcolombia</a>
+	<h1>anclajes</h1>
+	<a href="inicio"></a>
+	<a href="#nosotros">ir a nosotros</a>
+	<a href="#contacto">ir a contacto</a>
+</head>
+<body>
+	
+</body>
+</html>
