@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Metodos de cadena JS</title>
+</head>
+<body>
+	<h1>Metodos de cadena JS</h1>
+	<hr>
+	<input type="text" name="cadena" id="cadena">
+	<button id="btn">Mostrar</button>
+	<ol id="salida"></ol>
+	<script>
+		document.getElementById('btn').onclick = function() {
+			var cadena 	  = document.getElementById('cadena').value;
+			var salida 	  = document.getElementById('salida');
+			var contenido = "";
+			var longitud  = cadena.length;
+			var cortar    = cadena.substring(2,longitud);
+			var cambiar   = cadena.replace('a', 'i');
+			var mayuscula = cadena.toUpperCase();
+			var minuscula = cadena.toLowerCase();
+
+			contenido += "<li>Su longitud es de: "+longitud+"</li>";
+			contenido += "<li>Su cadena cortada es: "+cortar+"</li>";
+			contenido += "<li>Su cadena se ha cambiado a: "+cambiar+"</li>";
+			contenido += "<li>Su cadena en mayuscula es: "+mayuscula+"</li>";
+			contenido += "<li>Su cadena en minuscula es: "+minuscula+"</li>";
+			salida.innerHTML = contenido;
+		}
+	</script>
+</body>
+</html>
